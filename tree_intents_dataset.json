@@ -1,0 +1,292 @@
+{
+  "intents": [
+    {
+      "tag": "Neem",
+      "patterns": [
+        "Tell me about Neem tree",
+        "What is Neem tree known for?",
+        "What are the benefits of Neem tree?",
+        "How do you take care of Neem tree?",
+        "Describe the Neem tree"
+      ],
+      "responses": [
+        {
+          "tree_name": "Neem",
+          "description": "Neem trees are evergreen and known for their medicinal properties.",
+          "maintenance": "Minimal maintenance required. Prune once a year to remove dead branches.",
+          "planting": "Plant in a sunny area with well-drained soil. Water weekly during the initial growth phase."
+        }
+      ]
+    },
+    {
+      "tag": "Mango",
+      "patterns": [
+        "How to plant a Mango tree?",
+        "What is the best way to grow a Mango tree?",
+        "Tell me about Mango tree",
+        "How to care for a Mango tree?",
+        "What does a Mango tree need to grow?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Mango",
+          "description": "Mango trees are known for their delicious fruits and tropical appeal.",
+          "maintenance": "Fertilize during the growing season. Protect from pests and diseases.",
+          "planting": "Plant in sandy loam soil with full sunlight. Water deeply once a week."
+        }
+      ]
+    },
+    {
+      "tag": "Banyan",
+      "patterns": [
+        "How to plant a Banyan tree?",
+        "What is the maintenance for Banyan tree?",
+        "Tell me about the Banyan tree",
+        "How does the Banyan tree grow?",
+        "Describe a Banyan tree"
+      ],
+      "responses": [
+        {
+          "tree_name": "Banyan",
+          "description": "Banyan trees are large with aerial roots and provide excellent shade.",
+          "maintenance": "Prune excess roots and branches. Water moderately during dry seasons.",
+          "planting": "Requires a spacious area and well-drained soil. Thrives in tropical climates."
+        }
+      ]
+    },
+    {
+      "tag": "Oak",
+      "patterns": [
+        "How to take care of an Oak tree?",
+        "What is the lifespan of an Oak tree?",
+        "Tell me about Oak tree",
+        "How does the Oak tree grow?",
+        "What are Oak tree’s growth conditions?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Oak",
+          "description": "Oak trees are known for their sturdy wood and long lifespan.",
+          "maintenance": "Water regularly, especially in dry spells. Prune to maintain shape.",
+          "planting": "Plant in well-drained soil with full sunlight. It may take time to establish."
+        }
+      ]
+    },
+    {
+      "tag": "Cherry",
+      "patterns": [
+        "When will a Cherry tree start producing fruit?",
+        "How to care for a Cherry tree?",
+        "Tell me about Cherry tree",
+        "What are the needs of a Cherry tree?",
+        "How to grow a Cherry tree?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Cherry",
+          "description": "Cherry trees are small to medium-sized and known for their sweet fruits.",
+          "maintenance": "Water deeply and fertilize during the growing season. Prune after fruiting.",
+          "planting": "Plant in well-drained, fertile soil with full sunlight. Best in temperate climates."
+        }
+      ]
+    },
+    {
+      "tag": "Pine",
+      "patterns": [
+        "Tell me about Pine tree",
+        "How to care for a Pine tree?",
+        "What is the maintenance for Pine tree?",
+        "How does Pine tree grow?",
+        "What are the characteristics of Pine trees?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Pine",
+          "description": "Pine trees are coniferous trees known for their evergreen needles.",
+          "maintenance": "Prune dead branches and water moderately. Fertilize in spring.",
+          "planting": "Plant in well-drained, sandy soil with full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Maple",
+      "patterns": [
+        "Tell me about Maple tree",
+        "How to plant a Maple tree?",
+        "What is the best way to grow a Maple tree?",
+        "What are the requirements for a Maple tree?",
+        "What is Maple tree known for?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Maple",
+          "description": "Maple trees are known for their beautiful fall foliage and syrup.",
+          "maintenance": "Water regularly. Prune to shape during the dormant season.",
+          "planting": "Plant in well-drained, loamy soil with partial to full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Birch",
+      "patterns": [
+        "How to care for a Birch tree?",
+        "Tell me about Birch tree",
+        "What is the best way to grow Birch tree?",
+        "What are the needs of a Birch tree?",
+        "How does a Birch tree grow?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Birch",
+          "description": "Birch trees are deciduous trees with white bark and are fast-growing.",
+          "maintenance": "Water regularly and prune for structure. Can tolerate cold weather.",
+          "planting": "Plant in well-drained, acidic soil with partial sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Willow",
+      "patterns": [
+        "How to care for a Willow tree?",
+        "What is the maintenance for a Willow tree?",
+        "Tell me about Willow tree",
+        "What are the best conditions for a Willow tree?",
+        "When should I plant a Willow tree?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Willow",
+          "description": "Willow trees are known for their flexible branches and ability to thrive in wet conditions.",
+          "maintenance": "Water regularly, especially in the growing season. Prune to maintain shape.",
+          "planting": "Plant in moist, well-drained soil with full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Apple",
+      "patterns": [
+        "How to plant an Apple tree?",
+        "What is the maintenance for an Apple tree?",
+        "Tell me about Apple tree",
+        "When does an Apple tree start producing fruit?",
+        "How to care for an Apple tree?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Apple",
+          "description": "Apple trees produce popular, sweet-tasting fruits.",
+          "maintenance": "Water regularly and fertilize during the growing season. Prune annually.",
+          "planting": "Plant in well-drained, slightly acidic soil with full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Coconut",
+      "patterns": [
+        "How to plant a Coconut tree?",
+        "What is the maintenance for a Coconut tree?",
+        "Tell me about Coconut tree",
+        "What are the growing conditions for a Coconut tree?",
+        "How does a Coconut tree grow?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Coconut",
+          "description": "Coconut trees are tropical trees that produce large, edible fruits.",
+          "maintenance": "Water regularly and fertilize every 6 months. Protect from strong winds.",
+          "planting": "Plant in sandy, well-drained soil with full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Eucalyptus",
+      "patterns": [
+        "Tell me about Eucalyptus tree",
+        "How to plant an Eucalyptus tree?",
+        "What is the maintenance for an Eucalyptus tree?",
+        "How does the Eucalyptus tree grow?",
+        "What are the needs of an Eucalyptus tree?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Eucalyptus",
+          "description": "Eucalyptus trees are known for their aromatic leaves and fast growth.",
+          "maintenance": "Water regularly in dry periods. Prune to shape and remove dead branches.",
+          "planting": "Plant in well-drained soil with full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Redwood",
+      "patterns": [
+        "Tell me about Redwood tree",
+        "How to care for a Redwood tree?",
+        "What is the maintenance for Redwood tree?",
+        "When do Redwood trees grow?",
+        "How does a Redwood tree grow?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Redwood",
+          "description": "Redwood trees are some of the tallest trees on Earth, known for their immense size.",
+          "maintenance": "Water regularly during dry seasons. Prune dead or damaged branches to maintain shape.",
+          "planting": "Plant in deep, well-drained soil with full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Pear",
+      "patterns": [
+        "Tell me about Pear tree",
+        "How to care for a Pear tree?",
+        "When does a Pear tree start producing fruit?",
+        "How does a Pear tree grow?",
+        "What are the needs of a Pear tree?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Pear",
+          "description": "Pear trees are known for their sweet and juicy fruits and beautiful spring blossoms.",
+          "maintenance": "Water deeply and fertilize in spring. Prune to maintain shape and remove dead branches.",
+          "planting": "Plant in well-drained soil with full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Pomegranate",
+      "patterns": [
+        "Tell me about Pomegranate tree",
+        "How to care for a Pomegranate tree?",
+        "What is the maintenance for a Pomegranate tree?",
+        "How does a Pomegranate tree grow?",
+        "What are the benefits of Pomegranate tree?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Pomegranate",
+          "description": "Pomegranate trees are known for their vibrant fruits, rich in antioxidants.",
+          "maintenance": "Water regularly, especially during dry periods. Prune dead branches.",
+          "planting": "Plant in well-drained, slightly acidic soil with full sunlight."
+        }
+      ]
+    },
+    {
+      "tag": "Olive",
+      "patterns": [
+        "Tell me about Olive tree",
+        "How to care for an Olive tree?",
+        "What is the maintenance for an Olive tree?",
+        "How does Olive tree grow?",
+        "What are the characteristics of Olive tree?"
+      ],
+      "responses": [
+        {
+          "tree_name": "Olive",
+          "description": "Olive trees are evergreen trees famous for their fruit and oil.",
+          "maintenance": "Water moderately. Prune periodically to maintain shape and remove dead branches.",
+          "planting": "Plant in well-drained, slightly alkaline soil with full sunlight."
+        }
+      ]
+    }
+  ]
+}

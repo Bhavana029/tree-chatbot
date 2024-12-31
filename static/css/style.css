@@ -1,0 +1,120 @@
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+/* Header */
+.chat-container h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Chat Box */
+.chat-box {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Message Styling */
+.message {
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.message.user {
+    background-color: #d4f0d7;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.message.bot {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+/* Chat Input */
+.chat-input {
+    padding: 12px;
+    border: none;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.chat-input:focus {
+    border-color: #4CAF50;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .chat-container {
+        width: 90%;
+        height: 90vh;
+    }
+
+    .chat-box {
+        padding: 5px;
+    }
+
+    .chat-input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .message {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .chat-container {
+        width: 95%;
+    }
+
+    .chat-container h1 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .message {
+        font-size: 13px;
+    }
+}
